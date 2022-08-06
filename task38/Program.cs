@@ -51,6 +51,6 @@ void PrintArray(double[] array)
 double[] array = CreateArrayRndDouble(5, 10);
 PrintArray(array);
 Console.WriteLine();
-double result = Math.Round(DifferenMaxMin(array), 1);
+double result = Math.Round(DifferenMaxMin(array), 1);    // тоже округлил, так иногда выдает кучу знаков после запятой
 Console.WriteLine($" разница между максимальным иминимальным элементов массива  составляет {result} ");
 
